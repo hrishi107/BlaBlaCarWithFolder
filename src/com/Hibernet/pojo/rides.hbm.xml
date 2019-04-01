@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+          
+<hibernate-mapping>
+  <class name="com.Hibernet.pojo.Rides" table="rides">  
+    <id name="pkrideid" column="pkrideid">  
+    	<generator class="native"></generator>  
+    </id>  
+   <!-- <property name="fkuserinfoid" column="fkuserinfoid"></property>  
+   <property name="fklocationid" column="fklocationid"></property> -->
+   <property name="fromlocation" column="fromlocation"></property>
+   <property name="tolocation" column="tolocation"></property>
+   <property name="date" column="date"></property>
+   <property name="totalseat" column="totalseat"></property>
+   <property name="availableseat" column="availableseat"></property>
+   <property name="price" column="price"></property>
+   <property name="leavetime" column="leavetime"></property>
+   <property name="reachedtime" column="reachedtime"></property>
+   <property name="isactive" column="isactive"></property>
+   <property name="createddate" column="createddate"></property>
+   <property name="createdby" column="createdby"></property>
+   <property name="modifieddate" column="modifieddate"></property>
+   <property name="modifiedby" column="modifiedby"></property>
+	<set name="bookingSet" cascade="all">
+		<key column="fkrideid"/>
+		<one-to-many class="com.Hibernet.pojo.Booking"/>
+	</set>
+		<many-to-one name="fromlocationObj" column="fklocationid" class="com.Hibernet.pojo.Location" cascade="all"/>
+		<many-to-one name="tolocationObj" column="fktolocatonid" class="com.Hibernet.pojo.Location" cascade="all"/>
+		<many-to-one name="userInfo" column="fkuserinfoid" class="com.Hibernet.pojo.UserInfo" cascade="all" /> 
+	</class>  
+            
+ </hibernate-mapping>  

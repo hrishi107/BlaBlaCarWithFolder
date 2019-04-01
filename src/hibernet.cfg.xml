@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC  
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"  
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">  
+ <hibernate-configuration>
+ 
+	<session-factory>
+	 
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>  
+        <property name="connection.url">jdbc:mysql://192.168.57.5:3306/Hrishikesh_G</property>  
+        <property name="connection.username">Hrishikesh_G</property>  
+        <property name="connection.password">Hrishikesh_G</property>  
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>  
+        <property name="show_sql">true</property>
+	    <mapping resource="com/Hibernet/pojo/country.hbm.xml"/>
+	    <mapping resource="com/Hibernet/pojo/state.hbm.xml"/>
+	    <mapping resource="com/Hibernet/pojo/district.hbm.xml"/>
+	    <mapping resource="com/Hibernet/pojo/location.hbm.xml"/>
+		<mapping resource="com/Hibernet/pojo/rides.hbm.xml"/>
+		<mapping resource="com/Hibernet/pojo/booking.hbm.xml"/>
+		<mapping resource="com/Hibernet/pojo/userinfo.hbm.xml"/>
+		
+	</session-factory>
+</hibernate-configuration>

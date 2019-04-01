@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+          
+<hibernate-mapping>
+  <class name="com.Hibernet.pojo.UserInfo" table="user_info">  
+    <id name="pkuserid" column="pkuserid">  
+    	<generator class="native"></generator>  
+    </id>  
+   <property name="firstname" column="firstname"></property>  
+   <property name="lastname" column="lastname"></property>
+   <property name="gender" column="gender"></property>
+   <property name="hobbies" column="hobbies"></property>
+   <property name="mobileno" column="mobileno"></property>
+   <property name="email" column="email"></property>
+   <property name="address" column="address"></property>
+   <property name="dateofbirth" column="dateofbirth"></property>
+   <property name="pincode" column="pincode"></property>
+   <property name="password" column="password"></property>
+   <property name="repeatpassword" column="repeatpassword"></property>
+   <property name="isactive" column="isactive"></property>
+   <property name="createddate" column="createddate"></property>
+   <property name="createdby" column="createdby"></property>
+   <property name="modifieddate" column="modifieddate"></property>
+   <property name="modifiedby" column="modifiedby"></property>
+   <property name="isadmin" column="isadmin"></property>
+	<set name="rideSet" table="rides" inverse ="true" cascade="all">
+		<key column="fkuserinfoid"  />
+		<one-to-many class="com.Hibernet.pojo.Rides"/>
+	</set>
+	<set name="bookingset" inverse="true" cascade="all" >
+		<key column="fkuserinfoid"/>
+		<one-to-many class="com.Hibernet.pojo.Booking"/>
+	</set>
+	</class>  
+            
+ </hibernate-mapping>  

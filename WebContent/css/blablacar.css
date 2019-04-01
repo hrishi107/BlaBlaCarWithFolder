@@ -1,0 +1,124 @@
+body{font-family: Arial, Helvetica, sans-serif; margin:0;padding:0;font-family:initial;}
+h1,h2,ul,li,p{margin:0;padding:0}
+//.MainWrapper{margin:0 auto;}
+.Header{height:80px; background-color:#fff;margin:0 auto; box-shadow: 0px 15px 10px -15px #111;}
+.primaryheader{height: 71px;text-align:center;}
+.searchboxheader{width:600px !important ;height:60px;border-radius:15px;color:#054752;font-size:25px;text-align:center}
+.bookmyshowpng{background-image:url("../images/blabla.png");background-repeat:no-repeat; height:42px; width:185px; display:inline-block;float:left;margin-top:10px;margin-left:200px}
+.innernav{width:651px; margin:0 auto;float:right;margin-top:25px;margin-right:153px}
+.headerlinks{list-style-type:none;margin-left:83px}
+.swing{float:left; padding:0px 20px}
+.clr{clear:both}
+.nav-link{color:#00AFF5;font-size:18px}
+.city{padding-right:10px}
+
+/*RegisterPage and login page css*/
+
+*{box-sizing: border-box;}
+p{padding:5px;margin:0}
+.container1{padding: 16px 0px 0px 16px;background-color:#407a82;position:fixed;top:50px;left:0px;right:0px;margin:0 auto;width:700px;border-radius:5px;display:none;border:1px solid black;z-index:1200}
+input[type=text], input[type=password]{width: 100%;padding: 15px;margin: 5px 0 22px 0;display: inline-block;border: none;background: #EDEDED;font-size:20px}
+input[type=text]:focus, input[type=password]:focus{background-color: #ddd;outline: none;}
+hr {border: 1px solid #f1f1f1;margin-bottom: 25px;}
+.registerbtn{background-color: #4CAF50;color: white;padding: 16px 20px;margin: 8px -8px;border: none;cursor: pointer;width: 100%;opacity: 0.9;}
+.registerbtn1{background-color: red;color: white;padding: 16px 20px;margin: 8px -8px;border: none;cursor: pointer;width: 100%;opacity: 0.9;}
+.registerbtn:hover{opacity: 1;}
+.registerbtn1:hover{opacity: 1;}
+.City{width:279px;height:40px;padding:10px 0 10px 102px;margin-bottom:10px}
+.DisplayDiv{width:700px;background-color:white;display:none;font-size:20px;border-radius:13px}
+.clr{clear:both}
+.form{margin:0 auto;}
+.Span{font-size:15px;float:right}
+.displaySpan{margin-left:10px;color:green}
+.Display{position:fixed;top:50px;left:0px;right:0px;margin:0 auto}
+.DisplayDiv1{width:700px;background-color:white;display:none;font-size:20px;border-radius:13px}
+.Heading1{color:black; font-size:30px}
+.cross{background-image:url("../images/error.png");background-repeat:no-repeat;height:64px;width:64px;position:absolute;right:-15px;top:-14px;}
+
+.over{position:fixed;bottom:0px;right:0px;height:100%;width:100%;opacity:0.7;display:none;overflow:hidden;background-color:black}
+.formHeight{height:800px;overflow-x:scroll}
+.container2{padding:16px 0px 0px 16px;background-color:#407a82;position:fixed;top:50px;left:0px;right:0px;margin:0 auto;width:700px;border-radius:5px;display:none;border:1px solid black;z-index:900}
+#reglink{color:blue}
+.cityPopup{text-align:center;}
+.cityPopup1{background-color:#fff;width:739px;margin:0 auto;display:none}
+#SelectDropDown{margin:50px 0px 50px 0px}
+.lastBlockDiv{height:350px;border:1px solid #FFEB3B;margin-top:243px;padding:0px 182px 0px 250px}
+.lastBlockDiv1{height:350px;}
+.blockdivdriver{border:1px solid black;padding:10px;margin:10px;float:left; background-image:url("../images/driver.png");background-repeat:no-repeat; height:321px; width:460px; display:inline-block}
+.blockdivdriver1{height:321px; width:460px;padding:10px;margin:10px;float:left;border:1px solid black}
+.blockdiv{width:222px; border:1px solid black;padding:10px;height:323px;margin:10px;float:left; background-image:url("../images/sbi.png");background-repeat:no-repeat; height:309px; width:266px; display:inline-block}
+/*footer*/
+.LastDiv{padding:10px 0 30px 0;background-color:black;boredr:1 px solid #FFEB3B }
+.FooterH2{color:#fff;border-bottom:1px solid #2b2727;padding:10px}
+.FooterH3{color:#2b2727;border-bottom:1px solid #2b2727;padding:10px}
+.Box{width:1153px;height:450px;box-sizing:border-box}
+
+.BOX1{width:278.25px;float:left;box-sizing:border-box;margin-right:13px;overflow:hidden;padding:13px 43px;background-color:#f7ecec;margin-top:10px}
+.BOX2{width:278.25px;float:left;box-sizing:border-box;margin-right:13px;padding:16px 43px;background-color:#f7ecec;margin-top:10px}
+.BOX3{width:278.25px;float:left;box-sizing:border-box;margin-right:13px;padding:16px 43px;background-color:#f7ecec;margin-top:10px}
+.BOX4{width:278.25px;float:left;box-sizing:border-box;padding:16px 43px;background-color:#f7ecec;margin-top:10px}
+.movieBanner{height:350px;border:1px solid #FFEB3B;text-align:center}
+.theaterContainer{height:450px;border:1px solid #FFEB3B;padding:10px;width:800px;margin:0 auto;font-size:50px;color:#fff}
+.theaterList{height:100px;border:1px solid #FFEB3B;width:776px;font-size:50px;color:#fff;padding:14px;margin-top:25px}
+.TheaterList{border:1px solid black;background-image:url("../images/blablabanner.png");background-repeat:no-repeat; height:676px; width:1888px;margin-top:10px;margin-left:30px;margin-left:115px}
+.moveName{font-size:50px;color:#fff;position:absolute;top:454px}
+.movebannerbackimg{background-image:url("../images/Manikarnika.jpg");background-repeat:no-repeat; height:348px; width:1126px; display:inline-block}
+.theaterName{height:70px;border:1px solid #FFEB3B;width:166px;font-size:28px;color:#fff;margin-right:20px;float:left;text-align:center;padding:15px}
+.anchor{color:#fff !important}
+/*.SeatavilabilityPopup{height:660px; width:600px;display:block;border:1px solid #FFEB3B;position:fixed;top:220px;right:0px;bottom:0px;left:0px;margin:0 auto;background:#fff;z-index:800;box-sizing:borderbox;padding:30px}*/
+.OverlaySeatavilabilityPopup{position:fixed;bottom:0px;right:0px;height:100%;width:100%;opacity:0.7;display:none;overflow:hidden;background-color:black}
+.cross1{background-image:url("../images/error.png");background-repeat:no-repeat;height:64px;width:64px;position:absolute;right:-15px;top:-14px;}
+.Seat{width:40px;height:40px;float:left;margin:5px;border:1px solid black;border-radius:5px;box-sizing:borderbox;padding:14px}
+.labelA{float:left;margin-top:16px}
+.label{display:block;color:blue}
+.screen{height:20px;width:393px;background:blue;margin:0 auto;margin-top:10px}
+
+.Seattbl{width:600px;height:500px;border:1px solid yellow}
+.label1{margin-top:17px;float:left}
+.labelscreen{display:block;color:green;text-align:center;margin-top:20px}
+
+/*css for searching ride jsp*/ 
+.findRideDiv{border:1px solid black;width:850px;text-align:center;margin:0 auto;padding:123px;margin-top:100px;background-color:#033940}
+.blackLine{border:1px solid black;margin-top:60px}
+.DateTimeColor{color:#00AFF5;font-size:23px}
+.k{font-size:25px}
+.autoComplete{list-style-type:none;background:white;font-size:25px;width: 600px;display: inline-block;border-radius:7px}
+.RideDetails{width:700px;margin:0 auto;margin-top:25px;padding:20px;box-shadow: 0px 103px 55px -18px #009688;}
+.Price{font-weight: bold;font-size: 21px;float:right;color: #00AFF5}
+.Fromtime{font-weight:bold;font-size: 21px;border-right:1px solid green;padding:16px;color:black !important}
+.fromlocation{margin: 11px;margin-bottom: 90px;display: inline-block;font-weight: bold;font-size: 21px;color:black !important}
+.Totime{font-weight: bold;font-size: 21px;border-right:1px solid green;padding:11px;color:black !important}
+.tolocation{margin:10px;font-weight: bold;font-size: 21px;color:black !important;margin-bottom: 59px;display: inline-block;}
+.Details{width:656px;border-radius:7px;border:1px solid black;padding:9px;border-radius:12px;border: 1px solid #00000038;padding: 9px;background: #fff;box-shadow: 0px 15px 10px -15px #111;box-shadow: 0px 25px 55px -15px #111;margin-bottom:30px}
+.inputBox{margin: -19px 0 11px 0 !important}
+/*css for searching rideand user details jsp*/
+.hrClass{margin-bottom:0px;margin: 0;padding: 0;border:1px solid black}
+.drive {width: 800px;margin: 0 auto;margin-top: 25px;padding: 20px;box-shadow: 0px 21px 61px -18px #009688;}
+.Detailslist{width: 759px;;border-radius: 7px;border: 1px solid black;padding: 9px;border-radius: 12px;border: 1px solid #00000038;padding: 9px;background: #fff;box-shadow: 0px 15px 10px -15px #111;box-shadow: 0px 21px 31px -15px #111;margin-bottom: 30px;}
+.an{color:black !important;text-decoartion:none}
+.seatdiv{height:150px;font-weight: bold;font-size: 21px;padding: 10px;}
+.aval{font-weight: bold;font-size: 21px;margin-top: 19px;margin-right: 10px}
+.toseat{display:block;font-weight: bold;font-size: 21px;margin-top: 26px;margin-right: 10px}
+.ruppes{color: #00AFF5;font-weight: bold;font-size: 21px;float:right}
+.selectseat{height:150px;border:1px solid black;margin:0 auto;width:650px;TEXT-ALIGN: center;padding-top: 50px;}
+.carownr{height:100px}
+.hrcolor{border:1px solid black !important}
+.avl{display: block;float: right;}
+.countSeat{font-size: 50px;color: #4faff5;}
+.minus{height: 61px;width: 84px;background: #03a9f4;border-radius: 19px;border: 2px solid black;font-size: 47px;text-align: center;display:none}
+.plus{height: 61px;width: 84px;background: #03a9f4;border-radius: 19px;border: 2px solid black;font-size: 40px;text-align: center;}
+.Book{height: 61px;width: 104px;background: #03a9f4;border-radius: 19px;border: 2px solid black;font-size: 40px;text-align: center;}
+.bookButtonDiv{height: 100px;margin: 0 auto;width:650px;TEXT-ALIGN: center;padding-top: 12px;}
+.adminForm{Width: 1100px;margin: 0 auto;border: 1px solid black;padding: 20px;margin-top:40px;box-shadow: 0px 21px 61px -18px #009688;}
+.lable{width:30px;font-size:25px;margin-right: 20px}
+.countrybutton{background-color: #4CAF50;color: white;padding: 16px 20px;margin: 8px -8px;border: none;cursor: pointer;width:98px;;opacity: 0.9;margin-right: 18%}
+.inputFeild{width: 550px !important;margin-right: 27px !important;height: 49px;!important}
+.lable1{width:30px;font-size:25px;margin-right: 49px}
+.adminh1{text-align:center;width:1100px;border: 1px solid black;padding: 20px;margin: 0 auto; margin-top:41px;margin-bottom:30px;background: #009688;box-shadow: 0px 26px 10px -15px #111;}
+.lable2{margin-right: 26px;font-size: 24px;}
+.lable3{margin-right: 7px;font-size: 25px;}
+.lable5{width: 30px;font-size: 25px;margin-right: 45px}
+.Table{font-family: arial, sans-serif;border-collapse: collapse;margin-top:125px}
+td,th{border: 1px solid black;text-align: left;padding: 8px;}
+.bookingHistory{width:1600px;margin:0 auto;}
+.tableHeader{border: 1px solid black;text-align:center !important;padding: 8px;background:#009688;height: 46px;}

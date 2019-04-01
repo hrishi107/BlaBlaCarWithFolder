@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+          
+<hibernate-mapping>
+  <class name="com.Hibernet.pojo.District" table="district">  
+    <id name="pkdistrictid" column="pkdistrictid">  
+    	<generator class="native"></generator>  
+    </id>
+   <property name="districtname" column="districtname"></property>  
+   <property name="isactive" column="isactive"></property>
+   <property name="createddate" column="createddate"></property>
+   <property name="createdby" column="createdby"></property>
+   <property name="modifieddate" column="modifieddate"></property>
+   <property name="modifiedby" column="modifiedby"></property>
+   <set name="locationSet" cascade="all" >
+		<key column="fkdistrictid" />
+		<one-to-many class="com.Hibernet.pojo.Location"/>
+	</set>
+	<many-to-one name="stateObj" column="fkstateid" class="com.Hibernet.pojo.State" cascade="all"/>
+	</class>  
+            
+ </hibernate-mapping>  
